@@ -1,6 +1,5 @@
 from breezypythongui import EasyFrame
 from tkinter.font import Font
-from matplotlib.figure import Figure
 import numpy as np
 
 class Login(EasyFrame):
