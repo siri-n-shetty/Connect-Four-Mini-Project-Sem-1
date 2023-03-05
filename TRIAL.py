@@ -45,11 +45,7 @@ class MyFrame(EasyFrame):
             # Validate the user input and authenticate the user
             username1 = self.usernameField1.getText()
             username2 = self.usernameField2.getText()
-            if username1 != username2:
-                #f = open("usernames.txt", 'a')
-                #f.write(username1+" "+username2+" ")
-                #f.close()
-                #print(leaderboard)
+            if username1 != username2:               
                 self.parent.play_game(username1, username2)
             else:
                 self.addLabel(text="Please enter correct username", row=3, column=0)
