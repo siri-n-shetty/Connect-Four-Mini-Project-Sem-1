@@ -159,7 +159,7 @@ def play(x,y):
             rn = place_piece_and_draw(board,turn,i)
             r = game_over_lastmove(board,turn,rn,i)
             if r==0:
-                messagebox.showinfo('Game over','tie')                                
+                messagebox.showinfo('Game over','It is a tie!')                                
             elif r==1:
                 messagebox.showinfo('Game Over!','Player1 won!')
             elif r==-1:
